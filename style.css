@@ -1,0 +1,65 @@
+a {
+	text-decoration: none;
+}
+body {
+	background-image: url(https://t1.daumcdn.net/cfile/blog/2406AD3C52E0A1932D);
+}
+.main {
+	text-align: center;
+}
+.main-photo {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+.main p {
+	margin-top: 20px;
+	font-size: 30px;
+	color: white;
+}
+.info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.info-detail {
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.info-detail p {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.photo {
+	background-color: white;
+	height: 250px;
+	border-radius: 20px;
+	-webkit-box-shadow: 7px -5px 10px 0px #4b0082, 11px -9px 10px 0px #0000ff,
+		16px -14px 10px 0px #00ff00, 20px -17px 10px 0px #ffff00,
+		24px -19px 10px 0px #ff7f00, 27px -23px 10px 0px #ff0000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: 7px -5px 10px 0px #4b0082, 11px -9px 10px 0px #0000ff,
+		16px -14px 10px 0px #00ff00, 20px -17px 10px 0px #ffff00,
+		24px -19px 10px 0px #ff7f00, 27px -23px 10px 0px #ff0000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.summary {
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.info {
+		flex-direction: column;
+	}
+}
+
+.img {
+	float: left;
+	margin: 100px;
+	width: 100px;
+	background-color: aqua;
+	height: 100px;
+}
