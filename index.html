@@ -16,116 +16,61 @@
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+		<script src="./script.js" defer></script>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Navbar</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdown"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								Dropdown
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li><hr class="dropdown-divider" /></li>
-								<li>
-									<a class="dropdown-item" href="#">Something else here</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link disabled">Disabled</a>
-						</li>
-					</ul>
-					<form class="d-flex">
-						<input
-							class="form-control me-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button class="btn btn-outline-success" type="submit">
-							Search
-						</button>
-					</form>
-				</div>
+		<div id="mode" class="rainbow">
+			<div class="background-mode">
+				<button class="btn btn--rainbow">rainbow</button>
+				<button class="btn btn--dark">dark</button>
+				<button class="btn btn--light">light</button>
 			</div>
-		</nav>
-		<div class="background"></div>
-		<div class="main">
-			<img class="main-photo" src="1648816706214.jpg" alt="test img" />
-			<p>😍차재환</p>
-		</div>
-		<div class="info">
-			<a href="https://www.ulsan.go.kr/u/emergency_main.jsp" target="blank">
-				<div class="location info-detail">
-					<img
-						class="photo"
-						src="https://www.ulsan.go.kr/u/storyCms/rep/images/sub05/img_slogan.png"
-						alt="uslan"
-					/>
-					<p>울산</p>
-				</div>
-			</a>
-			<a
-				href="https://en.wikipedia.org/wiki/Frontend_and_backend"
-				target="blank"
-			>
-				<div class="part info-detail">
-					<img
-						class="photo"
-						src="https://cdn-icons-png.flaticon.com/512/6213/6213731.png"
-						alt="server"
-					/>
-					<p>서버</p>
-				</div>
-			</a>
-			<a href="https://namu.wiki/w/ISTJ" target="_blank">
-				<div class="mbti info-detail">
-					<img
-						class="photo"
-						src="https://static.neris-assets.com/images/personality-types/avatars/istj-logistician.png"
-						alt="mbti"
-					/>
-					<p>mbti</p>
-				</div>
-			</a>
-		</div>
-		<div class="summary">
-			<p>본인은 1998년 11월 23일에 탄생하였으며...</p>
-		</div>
-		<div class="container">
-			<section class="img">hello</section>
-			<section class="img">hello</section>
-			<section class="img">hello</section>
+			<div class="main">
+				<img class="main-photo" src="1648816706214.jpg" alt="test img" />
+				<p>😍차재환</p>
+			</div>
+			<div class="info-btn">
+				<button id="who-am-i" class="btn">나는 누구일까요?</button>
+			</div>
+			<div class="info hidden">
+				<a href="https://www.ulsan.go.kr/u/emergency_main.jsp" target="blank">
+					<div class="location info-detail">
+						<img
+							class="photo"
+							src="https://www.ulsan.go.kr/u/storyCms/rep/images/sub05/img_slogan.png"
+							alt="uslan"
+						/>
+						<p>울산</p>
+					</div>
+				</a>
+				<a
+					href="https://en.wikipedia.org/wiki/Frontend_and_backend"
+					target="blank"
+				>
+					<div class="part info-detail">
+						<img
+							class="photo"
+							src="https://cdn-icons-png.flaticon.com/512/6213/6213731.png"
+							alt="server"
+						/>
+						<p>서버</p>
+					</div>
+				</a>
+				<a href="https://namu.wiki/w/ISTJ" target="_blank">
+					<div class="mbti info-detail">
+						<img
+							class="photo"
+							src="https://static.neris-assets.com/images/personality-types/avatars/istj-logistician.png"
+							alt="mbti"
+						/>
+						<p>mbti</p>
+					</div>
+				</a>
+			</div>
+			<div class="summary">
+				<p>본인은 1998년 11월 23일에 탄생하였으며...</p>
+			</div>
 		</div>
 	</body>
 </html>
